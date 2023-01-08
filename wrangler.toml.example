@@ -1,0 +1,17 @@
+name = "epicgames-free-bot"
+main = "src/index.js"
+compatibility_date = "2023-01-08"
+
+[triggers]
+crons = [ "10 13 * * thu" ]
+
+[vars]
+# TELEGRAM_BOT_TOKEN = "example_token"
+# API_URL = "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US"
+# CHAT_ID = "@example_telegram_channel"
+
+# The necessary secrets are:
+# - TELEGRAM_BOT_TOKEN
+# - API_URL
+# - CHAT_ID
+# Run `wrangler secret put <NAME>` for each of these
