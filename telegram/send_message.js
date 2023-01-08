@@ -1,10 +1,7 @@
-import 'dotenv/config'
-const telegramBotToken = process.env.TELEGRAM_BOT_TOKEN
-const telegramAPIURL = `https://api.telegram.org/bot${telegramBotToken}/sendMessage`
-
-export default async function sendMessage (text) {
+export default async function sendMessage (text, telegramToken, chatID) {
+  const telegramAPIURL = `https://api.telegram.org/bot${telegramToken}/sendMessage`
   const msg = {
-    chat_id: '@matitk_epicgames_free',
+    chat_id: chatID,
     parse_mode: 'HTML',
     text
   }

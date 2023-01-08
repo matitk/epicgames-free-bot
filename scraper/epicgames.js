@@ -1,7 +1,6 @@
-export default async function scrape () {
+export default async function scrape (apiUrl) {
   const webURL = 'store.epicgames.com/p'
-  const APIURL = process.env.API_URL
-  const res = await fetch(APIURL)
+  const res = await fetch(apiUrl)
   if (!res.ok) throw new Error('Fetching Error')
   const json = await res.json()
   const rawGames = json.data.Catalog.searchStore.elements
