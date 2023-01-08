@@ -10,7 +10,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev src/index.js"
+    "dev": "wrangler dev src/index.js",
+    "publish": "wrangler publish"
   },
   "repository": {
     "type": "git",
