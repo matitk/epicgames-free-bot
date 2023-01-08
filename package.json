@@ -10,7 +10,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "dev": "wrangler dev src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/matitk/epicgames-free-bot#readme",
   "dependencies": {
-    "dotenv": "16.0.3"
+    "wrangler": "^2.6.2"
   },
   "devDependencies": {
     "eslint": "^8.31.0",
