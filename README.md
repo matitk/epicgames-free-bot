@@ -14,7 +14,7 @@ To use this bot, you will need:
 
 1. Clone the repository to your local machine: `git clone https://github.com/matitk/epic-games-bot.git`
 2. Install the dependencies: `cd epic-games-bot; npm install`
-3. Edit `wrangler.toml.example` file in the root directory of the project, with your keys and reneame to `wrangler.toml`.
+3. Edit `wrangler.toml.example` file in the root directory of the project, with your keys and rename to `wrangler.toml`.
 
 ## Usage
 
