@@ -1,0 +1,35 @@
+{
+  "name": "epicgames-free-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that notifies the free games of the week in epicgames",
+  "keywords": [
+    "epicgames",
+    "bot",
+    "free games"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matitk/epicgames-free-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matitk/epicgames-free-bot/issues"
+  },
+  "homepage": "https://github.com/matitk/epicgames-free-bot#readme",
+  "dependencies": {
+    "dotenv": "16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
