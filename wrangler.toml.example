@@ -3,7 +3,7 @@ main = "src/index.js"
 compatibility_date = "2023-01-08"
 
 [triggers]
-crons = [ "10 13 * * thu" ]
+crons = [ "10 16 * * thu" ]
 
 [vars]
 # API_URL = "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US"
