@@ -11,6 +11,8 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev src/index.js",
+    "test:scheduled" : "wrangler dev --test-scheduled",
+    "test:custom-cron" : "curl 'http://localhost:8787/__scheduled?__scheduled?cron=1+*+*+*+*'",
     "publish": "wrangler publish"
   },
   "repository": {
